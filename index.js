@@ -10,7 +10,7 @@ const path = require('path');
 const cors = require('cors');
 
 
-const PORT = 4040;
+const PORT = process.env.PORT || 4040;
 
 
 dotEnv.config();
